@@ -2,7 +2,7 @@ import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router'
 import Projetos from '../views/Projetos.vue';
 import Formulario from '../views/Projetos/Formulario.vue';
 import Tarefas from "../views/Tarefas.vue";
-import Lista from "../Views/Projetos/Lista.vue";
+import Lista from "../views/Projetos/Lista.vue";
 
 const rotas: RouteRecordRaw[] = [
     {

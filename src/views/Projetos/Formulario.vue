@@ -1,6 +1,5 @@
 <template>
     <section class="projetos">
-        <h1 class="title">Projetos</h1>
         <form @submit.prevent="salvar">
             <div class="field">
                 <label for="nomeDoProjeto" class="field">
@@ -51,7 +50,7 @@ export default defineComponent({
                     id: this.id,
                     nome: this.nomeDoProjeto
                 })
-                
+
             } else {  
                 this.store.commit('ADICIONA_PROJETO', this.nomeDoProjeto);
             }
@@ -69,9 +68,3 @@ export default defineComponent({
     }
 });
 </script>
-
-<style scoped>
-.projetos {
-    padding: 1.25rem
-}
-</style>
